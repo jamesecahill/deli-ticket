@@ -1,0 +1,16 @@
+<div id="main">
+    <div id="caption">
+        NOW SERVING:
+    </div>
+    <div id="counter">
+        {{counter}}
+    </div>
+    <div id="buttons">
+        <button {{action 'previous'}}>Previous</button>
+        <button {{action 'next'}}>Next</button>
+    </div>
+</div>
+<audio id="dinger">
+    <source src="audio/ding.mp3" type="audio/mpeg">
+</audio>
+{{outlet}}
